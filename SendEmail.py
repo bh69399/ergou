@@ -7,7 +7,7 @@ from email.MIMEText import MIMEText
 from email import Encoders
 import os
 
-gmail_user = "402323099@qq.com"
+gmail_user = "******@qq.com"
 gmail_pwd = "qvpzlxnparffcahc"
 
 
@@ -37,7 +37,7 @@ def mail(to, subject, text, attach):
 
 
 try:
-    to = "402323099@qq.com"
+    to = "******@qq.com"
     subject = "from python"
     text = "测试"
     attach = "D:/python/ArcpyBook/data/bc_pop1996.csv"
